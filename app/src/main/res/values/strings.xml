@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">DAMN-Practica10</string>
+    <string name="app_name">Mexico City Survival Guide</string>
+    <string name="browse_title">Consejos de Supervivencia</string>
+
+    <!-- Aquí agregamos todos los consejos que se te ocurran -->
+    <string-array name="survival_tips">
+        <item>Hay puntos de guardado disponibles en cualquier OXXO.</item>
+        <item>Las estadísticas de ataque para asaltantes aumentan cada quincena.</item>
+        <item>Para regenerar vida rápidamente puedes comprar unos esquites.</item>
+        <item>El Metro es un sistema de viaje rápido, pero puede generar eventos aleatorios.</item>
+        <item>Los tamales otorgan un bonus de +10 de energía durante 4 horas.</item>
+        <item>No intentes acariciar a los perros callejeros, podrían tener la habilidad \'Mordida Tóxica\'.</item>
+        <item>Usar el Metrobús en hora pico desbloquea el logro \'Superviviente Extremo\'.</item>
+        <item>Los tacos al pastor son pociones de felicidad instantánea.</item>
+        <item>Puedes intercambiar bolillos por otros ítems con NPCs (vendedores ambulantes).</item>
+    </string-array>
 </resources>
