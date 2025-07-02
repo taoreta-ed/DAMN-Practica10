@@ -42,7 +42,8 @@ class CardPresenter : Presenter() {
 
         // Ponemos una imagen genérica o un color de fondo
         cardView.mainImageView.setBackgroundColor(ContextCompat.getColor(cardView.context, android.R.color.darker_gray))
-        cardView.setMainImage(ContextCompat.getDrawable(cardView.context, R.drawable.app_icon_your_company)) // Usa tu banner
+        // CAMBIO AQUÍ: Usamos el ícono de la aplicación por defecto
+        cardView.setMainImage(ContextCompat.getDrawable(cardView.context, R.mipmap.ic_launcher))
     }
 
     override fun onUnbindViewHolder(viewHolder: ViewHolder) {
