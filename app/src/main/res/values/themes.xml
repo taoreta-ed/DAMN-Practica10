@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.DAMNPractica10" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>
